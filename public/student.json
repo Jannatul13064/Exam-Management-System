@@ -1,0 +1,74 @@
+[
+    {
+        "name": "Jannatul Islam",
+        "diuid": "192-15-13064",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Akramul Hassan",
+        "diuid": "192-15-13175",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Ridoy Islam",
+        "diuid": "192-15-13047",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Aurup Paul",
+        "diuid": "192-15-13080",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Mostafa Rayhan",
+        "diuid": "192-15-13095",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Afroja Rahman",
+        "diuid": "192-15-13060",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Tawhidul Islam",
+        "diuid": "192-15-13087",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    },
+    {
+        "name": "Shohel Sadman Soumik",
+        "diuid": "192-15-13092",
+        "email": "abcd@gmail.com",
+        "dept": "Computer Science & Engineering",
+        "semester": 11,
+        "description": "Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.",
+        "img": ""
+    }
+]

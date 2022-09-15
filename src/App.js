@@ -13,6 +13,8 @@ import {
   Route,
 } from "react-router-dom";
 import Header from './components/Header/Header';
+import TeacherDetail from './pages/TeacherDetail/TeacherDetail';
+import StudentDetails from './pages/StudentDetails/StudentDetails';
 
 function App() {
   return (
@@ -23,9 +25,11 @@ function App() {
         <Route path='/home' element={<Home></Home>} />
         <Route path='/admin' element={<Admin></Admin>} />
         <Route path='/students' element={<Students></Students>} />
+        <Route path='/students/:studentId' element={<StudentDetails></StudentDetails>} />
         <Route path='/rooms' element={<Rooms></Rooms>} />
         <Route path='/invigilator' element={<Invigilator></Invigilator>} />
         <Route path='/teachers' element={<Teachers></Teachers>} />
+        <Route path='/teacher/:teacherId' element={<TeacherDetail></TeacherDetail>} />
         <Route path='/registration' element={<Registration></Registration>} />
         <Route path='*' element={<NotFound></NotFound>} />
       </Routes>
