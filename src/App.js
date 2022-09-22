@@ -15,6 +15,12 @@ import {
 import Header from './components/Header/Header';
 import TeacherDetail from './pages/TeacherDetail/TeacherDetail';
 import StudentDetails from './pages/StudentDetails/StudentDetails';
+import Footer from './components/Footer/Footer';
+import AddInvigilator from './pages/AddInvigilator/AddInvigilator';
+import AddStudent from './pages/AddStudent/AddStudent';
+import AddRoom from './pages/AddRoom/AddRoom';
+import GenerateRoutine from './pages/GenerateRoutine/GenerateRoutine';
+import AddTeacher from './pages/AddTeacher/AddTeacher';
 
 function App() {
   return (
@@ -31,8 +37,14 @@ function App() {
         <Route path='/teachers' element={<Teachers></Teachers>} />
         <Route path='/teacher/:teacherId' element={<TeacherDetail></TeacherDetail>} />
         <Route path='/registration' element={<Registration></Registration>} />
+        <Route path='/addInvigilator' element={<AddInvigilator></AddInvigilator>} />
+        <Route path='/addStudent' element={<AddStudent></AddStudent>} />
+        <Route path='/addRoom' element={<AddRoom></AddRoom>} />
+        <Route path='/generateRoutine' element={<GenerateRoutine></GenerateRoutine>} />
+        <Route path='/addTeacher' element={<AddTeacher></AddTeacher>} />
         <Route path='*' element={<NotFound></NotFound>} />
       </Routes>
+      <Footer></Footer>
 
     </div>
   );

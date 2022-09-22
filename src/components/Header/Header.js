@@ -46,7 +46,7 @@ const Header = () => {
                                 <Link className="nav-link" to="/registration">SignUp or LogIn</Link>
                             </li>
                             <li className='nav-item'>
-                                <form action="" className='py-2 mx-2'>
+                                <form action="" className='py-2 px-2'>
                                     <input type="text" placeholder='Search-Here' />
                                     <input type="submit" value="Search" />
                                 </form>
