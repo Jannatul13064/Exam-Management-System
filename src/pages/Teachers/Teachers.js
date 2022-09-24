@@ -6,7 +6,7 @@ import Teacher from '../Teacher/Teacher';
 const Teachers = () => {
     const [teachers, setTeachers] = useState([]);
     useEffect(() => {
-        fetch('https://jsonplaceholder.typicode.com/users')
+        fetch('http://localhost:5000/teachers')
             .then(res => res.json())
             .then(data => setTeachers(data))
     }, [])
@@ -18,7 +18,7 @@ const Teachers = () => {
                 <div className="row p-4">
                     {
                         teachers.map(teacher => <Teacher
-                            key={teacher.id}
+                            key={teacher._id}
                             teacher={teacher}
                         ></Teacher>)
                     }

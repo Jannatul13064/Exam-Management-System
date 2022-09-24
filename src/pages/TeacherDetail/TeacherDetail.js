@@ -8,7 +8,7 @@ const TeacherDetail = () => {
 
 
     useEffect(() => {
-        const url = `https://jsonplaceholder.typicode.com/users/${teacherId}`;
+        const url = `http://localhost:5000/teachers/${teacherId}`;
         fetch(url)
             .then(res => res.json())
             .then(data => setTeacher(data));
@@ -18,12 +18,13 @@ const TeacherDetail = () => {
         navigate('/teachers')
     }
     return (
-        <div>
+        <div className='w-50 mx-auto'>
+            <img src='${photoUrl}' alt="" />
             <h4>This is Teacher details ID : {teacherId}</h4>
-            <h4>Name{teacher.name}</h4>
+            <h4>Name : {teacher.name}</h4>
             <p>Website:{teacher.website}</p>
             <p>Email:{teacher.email}</p>
-            <p>Company:{teacher.company?.name}</p>
+            <p>Description:{teacher.description}</p>
             <button onClick={handleTeachersButton}>See All Teachers</button>
         </div>
     );

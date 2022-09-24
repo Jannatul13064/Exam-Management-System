@@ -4,7 +4,7 @@ import './Teacher.css';
 
 
 const Teacher = (props) => {
-    const { name, phone, email, website, address, id } = props.teacher;
+    const { name, phone, email, website, address, _id, id } = props.teacher;
     return (
         <div className='teacher col-lg-4 col-md-6 col-sm-12 rounded'>
             <h5>Name: {name}</h5>
@@ -12,8 +12,9 @@ const Teacher = (props) => {
             <a href={"tel:" + phone}>Call: {phone}</a>
             <p>Email: {email}</p>
             <small>Website: {website}</small>
-            <small>Address: {address.city}</small><br />
-            <Link to={`/teacher/${id}`}>Visit</Link>
+            {/* <small>Address: {address.city}</small><br /> */}
+            <br />
+            <Link to={`/teachers/${_id}`}>Visit</Link>
         </div>
     );
 };

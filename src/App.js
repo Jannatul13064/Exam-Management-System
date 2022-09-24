@@ -35,7 +35,7 @@ function App() {
         <Route path='/rooms' element={<Rooms></Rooms>} />
         <Route path='/invigilator' element={<Invigilator></Invigilator>} />
         <Route path='/teachers' element={<Teachers></Teachers>} />
-        <Route path='/teacher/:teacherId' element={<TeacherDetail></TeacherDetail>} />
+        <Route path='/teachers/:teacherId' element={<TeacherDetail></TeacherDetail>} />
         <Route path='/registration' element={<Registration></Registration>} />
         <Route path='/addInvigilator' element={<AddInvigilator></AddInvigilator>} />
         <Route path='/addStudent' element={<AddStudent></AddStudent>} />
